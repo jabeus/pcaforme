@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Contact Me</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="css/w3.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            
+            
+             <div id="header">
+                
+                <div id="navbar">
+                    
+                    <div class="w3-bar w3-border w3-black w3-large">
+  <a href="index.html" class="w3-bar-item w3-button">Home</a>
+  <a href="contact.html" class="w3-bar-item w3-button"> Contact Me!</a></div>
+
+                </div>
+                <div id="banner" class=" w3-center">
+                    
+                    <p>
+                    <h1 class="w3-blue" style="text-shadow:1px 1px 0 #444">Contact Me!</h1>
+                    
+                </div>
+                            
+            </div>
+            <div class="w3-card-4">
+
+<div class="w3-container w3-blue">
+  
+</div>
+
+                <form class="w3-container" enctype="multipart/form-data" method="post" action="mail.php">
+
+<label>First Name</label>
+<input class="w3-input" type="text" name="first" required />
+
+<label>Last Name</label>
+<input class="w3-input" type="text" name="last" required />
+
+<label>Email</label>
+<input class="w3-input" type="email" name="email" required />
+
+<label>Message or comment</label>
+<textarea class="w3-input" name="message" rows="5" cols="50" required >
+
+</textarea>
+<label>Upload your resume</label>
+ <input type="file" name="file" accept=".doc,.docx,.pdf,.txt">
+
+ <button type="submit" class="w3-button w3-teal">Submit</button>
+</form>
+
+</div>
+
+          </div>
+    </body>
+</html>
